@@ -1,7 +1,7 @@
 
 
  
- const searchBar = document.querySelector('.search-bar');
+// const searchBar = document.querySelector('.search-bar');
  const cartLogo = document.getElementById('totalquantity')
  let cartQuantity = 0;
 //  let productpreview = document.querySelector('.preview');
