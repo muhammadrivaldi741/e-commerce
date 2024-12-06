@@ -167,8 +167,74 @@ li a{
 }
 
 @media screen and (max-width: 761px)  {
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: "Integral CF Regular", sans-serif;
+        font-weight: 200;
+      font-style: normal;
+    }
+    /* @import url(https://db.onlinewebfonts.com/c/f1fcc5aed1e20fc0cdb9f8a7573625bd?family=Integral+CF+Regular); */
+    .navbar{
+        display: flex;
+        align-items: center;
+        /* justify-content: space-between; */
+        width: 100vw;
+        height: 50px;
+        padding: 0px 50px;
+        position: fixed;
+        top: 0;
+        background-color: #fff;
+        z-index: 3;
+        
+    }
+    .menu{
+        display: flex;
+        /* justify-content: space-between; */
+        list-style: none;
+        display: none;
+        
+    }
+    li a{
+        padding: 0.5rem;
+        list-style: none;
+        /* display: none; */
+    }
+    .hopshop{
+        font-size: 2rem;
+        font-weight: bolder;
+        
+    }
+    .searchbar{
+        display: flex;
+        align-items: center;
+        margin-right: 0;
+        
+    }
+    .searchbar form{
+        display: flex;
+        margin: 0;
+    
+    }
+    .searchbar input{
+        padding: 10px;
+        width: 30rem;
+        /* padding-right: 10rem ; */
+        outline: none;
+        font-size: 15px;
+    }
+    .logo{
+        text-align: right;
+        position: absolute;
+        right: 10%;
+        list-style: none;
+    }
+    .logo li{
+       text-decoration: none;
+       float: right;
+    }
     .hero{
-        height: 100vh;
+        height: 200vh;
         /* background-image: var(--bg-image-desktop); */
         background-color: #F2F0F1;
         background-position: center;
@@ -176,17 +242,18 @@ li a{
         background-size: cover;
         transition: 400ms;
         display: grid;
-        grid-template-columns: 2fr ;
-        grid-template-rows: 0.5fr 0.5fr 0.5fr 1fr, 2fr;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto auto;
         grid-template-areas: 
-        "heroquote "
-        "heroP "
-        "herobutton "
-        "herothingy "
+        "heroquote"
+        "heroP"
+        "herobutton"
+        "herothingy"
         "heroimage"
     
         
         ;
+        position: relative;
     
         
     
@@ -197,9 +264,9 @@ li a{
        
         /* background-color: gold; */
         /* height: ; */
-        /* padding-top: 3em; */
-        /* padding-left: 1em ; */
-        font-size: 1rem;
+        padding-top: 2em;
+        padding-left: 1em ;
+        font-size: 1.5rem;
     
     }
     .heroimage{
@@ -1055,12 +1122,10 @@ position: absolute;
     border-radius: 10px;
     font-weight: bolder;
     padding: 2px;
-
-
-
-}
-@media (min-width: 300px) {
     
+
+
+
 }
 
 
