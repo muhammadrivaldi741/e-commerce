@@ -234,7 +234,7 @@ li a{
        float: right;
     }
     .hero{
-        height: 100vh;
+        height: 200vh;
         /* background-image: var(--bg-image-desktop); */
         background-color: gold;
         background-position: center;
