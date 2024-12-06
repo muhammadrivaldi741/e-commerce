@@ -234,7 +234,7 @@ li a{
        float: right;
     }
     .hero{
-        height: 200vh;
+        height: 100vh;
         /* background-image: var(--bg-image-desktop); */
         background-color: #F2F0F1;
         background-position: center;
@@ -242,8 +242,8 @@ li a{
         background-size: cover;
         transition: 400ms;
         display: grid;
-        grid-template-columns: auto;
-        grid-template-rows: auto auto auto auto auto;
+        grid-template-columns: 761px;
+        grid-template-rows: 200px 100px 200px 100px 200px;
         grid-template-areas: 
         "heroquote"
         "heroP"
@@ -266,7 +266,7 @@ li a{
         /* height: ; */
         padding-top: 2em;
         padding-left: 1em ;
-        font-size: 1.5rem;
+        font-size: 2rem;
     
     }
     .heroimage{
@@ -277,7 +277,7 @@ li a{
         
     }
     .heroimage img{
-        height: 35rem;
+        height: 20rem;
         position: absolute;
         bottom: 0;
     
@@ -294,7 +294,7 @@ li a{
     .herobutton{
         grid-area: herobutton;
         /* background-color: yellow; */
-        padding-left: 2.5em;
+        /* padding-left: 2.5em; */
         
     }
     .herobutton button{
@@ -339,16 +339,19 @@ li a{
 
 }
 .menshirt{
-    display: grid;
-    grid: 8fr / auto auto auto auto;
+    display: flex;
+    /* display: flex; */
+  flex-wrap: wrap;
     align-items: center;
+    
+    gap: 2rem;
 
 }
 .card{
     height: auto;
     width: 200px;
     /* border: 1px  solid; */
-    padding: 20px;
+    padding: 30px;
     margin-left: auto;
     margin-right: auto;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
