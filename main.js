@@ -319,7 +319,7 @@ function closePopup() {
  // Add an event listener for 'click' event
 //  searchBar.addEventListener('click', function() {
 //      // URL to open
-//      const url = "searchpage.html";
+//      const url = "searchpaghbdde.html";
      
 //      // Open the URL in a new tab
 //      window.location.href = url;
